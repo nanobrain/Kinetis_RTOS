@@ -162,7 +162,7 @@
             <CpuDllArguments></CpuDllArguments>
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
-            <InitializationFile></InitializationFile>
+            <InitializationFile>.\DBG_MTB.ini</InitializationFile>
             <Driver>BIN\UL2CM3.DLL</Driver>
           </TargetDlls>
         </DebugOption>
@@ -172,12 +172,12 @@
             <UseExternalTool>0</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
-            <Capability>0</Capability>
-            <DriverSelection>-1</DriverSelection>
+            <Capability>1</Capability>
+            <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -431,6 +431,203 @@
         </Group>
         <Group>
           <GroupName>Device</GroupName>
+          <Files>
+            <File>
+              <FileName>core_cm0plus.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\core_cm0plus.h</FilePath>
+            </File>
+            <File>
+              <FileName>core_cmFunc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\core_cmFunc.h</FilePath>
+            </File>
+            <File>
+              <FileName>core_cmInstr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\core_cmInstr.h</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_bitaccess.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\fsl_bitaccess.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_adc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_adc.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_cmp.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_cmp.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_dac.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_dac.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_dma.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_dma.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_dmamux.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_dmamux.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_fgpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_fgpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_ftfa.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_ftfa.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_i2c.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_i2c.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_llwu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_llwu.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_lptmr.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_lptmr.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_mcg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_mcg.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_mcm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_mcm.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_memory.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_memory.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_mtb.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_mtb.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_mtbdwt.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_mtbdwt.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_nv.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_nv.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_osc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_osc.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_pins.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_pins.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_pit.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_pit.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_pmc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_pmc.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_port.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_port.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_rcm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_rcm.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_rom.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_rom.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_rtc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_rtc.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_sim.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_sim.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_smc.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_smc.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_tpm.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_tpm.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_tsi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_tsi.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_uart0.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_uart0.h</FilePath>
+            </File>
+            <File>
+              <FileName>MKL25Z4_usb.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\MKL25Z4_usb.h</FilePath>
+            </File>
+            <File>
+              <FileName>system_MKL25Z4.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Listings\Device\MKL25Z4\system_MKL25Z4.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>User</GroupName>

@@ -19,12 +19,13 @@ int Init_Thread (void) {
 }
 
 void Thread (void const *argument) {
-
-  while (1) {
-			RGB(1,0,0);
-			osDelay(1000);
-			osThreadYield();                                            // suspend thread
-  }
+	//int AD_value = 0x43;
+	while (1) {
+		RGB(1,0,0);
+		//printf ("Width trick: %*d \n", 5, 10);
+		osDelay(1000);
+		osThreadYield();                                            // suspend thread
+	}
 }
 
 
