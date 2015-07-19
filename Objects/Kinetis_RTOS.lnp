@@ -1,0 +1,15 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\thread.o"
+".\objects\thread_1.o"
+".\objects\delay.o"
+".\objects\hd44780.o"
+".\objects\led.o"
+".\objects\low_level_init.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_mkl25z4.o"
+".\objects\system_mkl25z4.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x1FFFF000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Kinetis_RTOS.map" -o .\Objects\Kinetis_RTOS.axf
